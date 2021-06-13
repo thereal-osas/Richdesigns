@@ -1246,10 +1246,6 @@ border: none;
 	padding-bottom:10px;
 	border:0px;
 	font-family: 'Roboto', 'sans-serif';
-	font-weight: 300;
-	font-size:13px;
-	color:#555555;
-	background:#ededed;
 }
 input:focus{
 	//border:0;
@@ -1263,16 +1259,38 @@ textarea:focus{
 	margin-bottom:10px;
 	margin-right: 10px;
 	width:403px;
+	color:#555555;
+	background:#ededed;
+	font-size:13px;
+	font-weight: 300;
 }
 .Email{
 	margin-bottom:10px;
 	width:403px;
+	color:#555555;
+	background:#ededed;
+	font-size:13px;
+	font-weight: 300;
 }
 .Subject{
 	margin-bottom:10px;
 	max-width: 816px;
+	color:#555555;
+	background:#ededed;
+	font-size:13px;
+	font-weight: 300;
 }
-
+.Go{
+	color: #ffff;
+	background: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.Go:hover{
+	background: #1fcdff;
+	transition: ease 1s;
+}
 textarea {
 	border-radius:4px;
 	padding-top:10px;

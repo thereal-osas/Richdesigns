@@ -432,15 +432,11 @@
 			<div class="row">
 				<div class="col-md-9 col-xs-12 forma">
 					<form action="mail.php" method="post">
-						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *'/>
-						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
+						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *' required>
+						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *' required>
 						<input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Subject'/>
-						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *'></textarea>
-						<div class="cBtn col-xs-12">
-							<ul>
-								<li class="send"><i class="fa fa-share"></i>Send Message</li>
-							</ul>
-						</div>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *' required></textarea>
+						<input type="submit" class="col-md-6 col-xs-12 Go" name="Go" value="Send Message">
 					</form>
 				</div>
 				<div class="col-md-3 col-xs-12 cont">
