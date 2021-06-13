@@ -815,14 +815,13 @@ border: none;
 	padding-top:11px;
 }
 .cBtn ul li:last-child{
-	margin-right: 0;
+	margin-right: 50px;
 }
 .cBtn ul li a{
 	text-decoration:none;
 	text-transform:uppercase;
 	color:#fff;
 	font-size: 13px;
-	margin-right: 50px;
 	text-align:center;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
